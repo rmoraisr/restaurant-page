@@ -1,0 +1,43 @@
+/* Use a more-intuitive box-sizing model. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+/* Allow percentage-based heights in the application */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.restaurant-image {
+  max-width: 100%;
+  height: auto;
+}
+.headline {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.copy {
+  font-size: 18px;
+  text-align: justify;
+}
