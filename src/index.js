@@ -1,1 +1,3 @@
-console.log('Everything is gonna be all right!');
+import { loadHomePage } from './pageLoad';
+
+document.addEventListener('DOMContentLoaded', loadHomePage);
